@@ -595,10 +595,10 @@ body {
     }
 
     .activity-item {
-        margin-left: 22px;
+        margin-left: 23px;
         margin-top: 15px;
         margin-bottom: -4px;
-        font-size: 17px;
+        font-size: 13px;
     }
 
     .automation h2 {
@@ -663,7 +663,7 @@ body {
     
     .contact-info {
         margin-left: 24px;
-        gap: 57px;
+        gap: 42px;
     }
     
     .column-block {
@@ -697,7 +697,7 @@ body {
     } 
     
     .contact-email {
-        margin-left: -5px;
+        margin-left: -7px;
         font-size: 22px;
     }
     
