@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>АГИТ-Плюс</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="burger.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="menu">
+            <a href="#home">Главная</a>
+            <a href="#services">Услуги</a>
+            <a href="#vacancies">Вакансии</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+        <div class="logo">
+            <img src="img/logo.png" alt="АГИТ-Плюс">
+        </div>
+        <!-- Бургер -->
+        <button class="js-burger-btn burger-btn"></button>
+    </header>
+    <!-- Заголовок и описание компании -->
+    <section class="intro">
+        <div class="intro-text">
+            <h1>КОММЕРЧЕСКОЕ <br>ПРЕДЛОЖЕНИЕ</h1>
+            <p>Компания АГИТ-Плюс является официальным партнером 1С и предлагает комплексное обслуживание систем, в том числе отраслевых конфигураций 1С.</p>
+        </div>
+        <div class="goal">
+            <p>"Наша цель — автоматизация различных областей учета и предоставление сервиса самого высокого уровня обслуживания"</p>
+        </div>
+    </section>
+
+    <!-- Блок с видами деятельности -->
+    <section class="activities">
+        <h2>ВИДЫ ДЕЯТЕЛЬНОСТИ:</h2>
+        <div class="activity-block">
+            <ul class="activity-list">
+                <li class="activity-item">Проектная деятельность по автоматизации учета;</li>
+                <li class="activity-item">Оптимизация бизнес-процессов;</li>
+                <li class="activity-item">Комплексное обслуживание;</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Блок с направлениями автоматизации -->
+    <section class="automation">
+        <h2>НАПРАВЛЕНИЯ АВТОМАТИЗАЦИИ:</h2>
+        <div class="automation-content">
+            <div class="automation-image">
+                <img src="img/mining.png" alt="Горнодобывающая промышленность">
+            </div>
+                <ul class="automation-list">
+                    <li>Горнодобывающая промышленность, металлургия;</li>
+                    <li>Строительство и эксплуатация зданий и сооружений;</li>
+                    <li>Производство электротехнического и инженерного оборудования;</li>
+                    <li>Управление качеством и учет деятельности химических лабораторий;</li>
+                    <li>Оптово-розничная торговля и производство продуктов питания;</li>
+                    <li>Учет предоставления различных услуг и работы с клиентами (CRM);</li>
+                </ul>
+        </div>
+    </section>
+
+    <!-- Нижний блок с контактами -->
+    <footer class="footer">
+        <div class="contact-info">
+            <div class="column-block">
+                <div class="contact-item_email">
+                    <a class="contact_text" href="mailto:1c@agit.su">1c@agit.su</a>
+                </div>
+                <div class="contact-item_phone">
+                    <a class="contact_text" href="tel:+73843328000">+7 (3843) 328-000</a>
+                </div>
+            </div>
+            <div class="column-block">
+                <div class="contact-item_mobile">
+                    <a class="contact_text" href="tel:+79515961400">+7 (951) 596 1400</a>
+                </div>
+                <div class="contact-item_location">
+                    <p class="contact_text">пр-кт Строителей, 19</p>
+                </div>
+            </div>
+            <div class="column center-column">
+                <div class="contact-item">                
+                <a class="contact-email" href="http://www.agit.su">www.agit.su</a>
+            </div>
+        </div>            
+        </div>
+    </footer>
+
+    <!-- Бургер меню -->
+
+    <div class="js-burger burger">
+        <div class="burger__content">
+            <nav>
+                <ul class="burger__nav-list">
+                    <li>
+                        <a href="#home" class="burger__nav-link">Главная</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="burger__nav-link">Услуги</a>
+                    </li>
+
+                    <li>
+                        <a href="#vacancies" class="burger__nav-link">Вакансии</a>
+                    </li>
+
+                    <li>
+                        <a href="#contacts" class="burger__nav-link">Контакты</a>
+                    </li>
+                    
+                </ul>
+            </nav>
+
+            <div class="js-burger__content burger__contacts">
+                <p class="burger__contacts-title">Для связи:</p>
+                <a class="burger__contacts-link" href="mailto:1c@agit.su" target="_blank">1c@agit.su</a>
+                <a class="burger__contacts-link" href="tel:+73843328000" target="_blank">+7 (3843) 328-000</a>
+                <a class="burger__contacts-link" href="tel:+79515961400" target="_blank">+7 (951) 596 1400</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+ <script src="burger.js"></script>
+</body>
+</html>
