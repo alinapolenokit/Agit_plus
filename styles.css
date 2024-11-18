@@ -704,6 +704,7 @@ body {
         margin-left: -29px;  
     }
      .contact-item_email a {
+        font-size: 5px;
         margin-left: -4px;
      }
     
@@ -714,7 +715,7 @@ body {
     }
 
     .contact-item_phone a {
-        font-size: 6px;
+        font-size: 5px;
         margin-left: -5px;
      }
     
@@ -725,7 +726,7 @@ body {
     }
 
     .contact-item_mobile a {
-        font-size: 8px;
+        font-size: 6px;
     }
     
     .contact-item_location::before {
@@ -735,7 +736,7 @@ body {
     } 
 
     .contact-item_location p {
-        font-size: 9px;
+        font-size: 6px;
     }
     
     .contact-email {
