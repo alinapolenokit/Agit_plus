@@ -705,7 +705,7 @@ body {
     }
      .contact-item_email a {
         font-size: 5px;
-        margin-left: -7px;
+        margin-left: -3px;
      }
     
     .contact-item_phone::before {
