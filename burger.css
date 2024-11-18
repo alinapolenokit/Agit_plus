@@ -146,7 +146,6 @@
     letter-spacing: -0.6px;
     text-decoration: none;
   }
-    
 }
 
 @media (max-width: 768px) {
@@ -156,10 +155,18 @@
       }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 367px) {
   .burger-btn {
     width: 30px;
-    left: -377px;
+    left: -249px;
     margin-top: -207px;
+  }
+
+  .burger-btn::before {
+    top: 155px;
+  }
+
+  .burger-btn::after {
+    bottom: -154px;
   }
 }
