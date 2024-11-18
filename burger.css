@@ -163,10 +163,17 @@
   }
 
   .burger-btn::before {
-    top: 155px;
+    top: 166px;
   }
 
   .burger-btn::after {
-    bottom: -154px;
+    bottom: -134px;
+  }
+
+  .burger-btn_open::before {
+    top: 166px;
+  }
+  .burger-btn_open::after {
+    bottom: -144px;
   }
 }
