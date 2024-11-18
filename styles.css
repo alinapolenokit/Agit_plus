@@ -699,7 +699,7 @@ body {
     }
     
     .contact-item_email::before {
-        bottom: -7px;
+        bottom: -6px;
         height: 35px;
         margin-left: -31px;  
     }
@@ -711,7 +711,7 @@ body {
     .contact-item_phone::before {
         bottom: 10px;
         height: 16px;
-        margin-left: -28px;
+        margin-left: -27px;
     }
 
     .contact-item_phone a {
