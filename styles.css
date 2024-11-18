@@ -699,13 +699,13 @@ body {
     }
     
     .contact-item_email::before {
-        bottom: -4px;
+        bottom: -8px;
         height: 35px;
-        margin-left: -29px;  
+        margin-left: -31px;  
     }
      .contact-item_email a {
         font-size: 5px;
-        margin-left: -4px;
+        margin-left: -7px;
      }
     
     .contact-item_phone::before {
@@ -722,21 +722,23 @@ body {
     .contact-item_mobile::before {
         bottom: 11px;
         height: 15px;
-        margin-left: -27px;
+        margin-left: -30px;
     }
 
     .contact-item_mobile a {
         font-size: 6px;
+        margin-left: -2px;
     }
     
     .contact-item_location::before {
-        bottom: 7px;
+        bottom: 9px;
         height: 18px;
-        margin-left: -27px;
+        margin-left: -33px;
     } 
 
     .contact-item_location p {
         font-size: 6px;
+        margin-left: -10px;
     }
     
     .contact-email {
